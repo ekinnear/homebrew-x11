@@ -8,7 +8,6 @@ class Tabbed < Formula
 
   bottle do
     cellar :any_skip_relocation
-    revision 1
     sha256 "d8cae93e79574d26ebeecb138c1b249920e9e30d77eae614695ebacdc96b8562" => :el_capitan
     sha256 "ced60eb28e2793135d0a3cf99593fc92e961228e0846bf1fcf14fbddf13de3f4" => :yosemite
     sha256 "eba76e91f5d758721dbdda08f00017473d43884ced7be84877338ed0b05d2b63" => :mavericks
