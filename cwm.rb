@@ -16,7 +16,6 @@ class Cwm < Formula
 
   bottle do
     cellar :any_skip_relocation
-    revision 1
     sha256 "86b35fa5552b122e49569856979e103308111aac4ee88bbd10a281ee508d2961" => :el_capitan
     sha256 "bf394fe2acc18890e1cb3b42b80a8f1f5f494cc5c01d83a6a6d1a4fa342c17b2" => :yosemite
     sha256 "0af986635a49c77234a18f322c62826134463bed24c5d8283919c2d546d8673e" => :mavericks
