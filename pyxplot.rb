@@ -8,7 +8,6 @@ class Pyxplot < Formula
   bottle :disable, "Homebrew cannot currently build bottles against TeX"
 
   depends_on :x11
-  depends_on :tex
   depends_on "fftw"
   depends_on "homebrew/science/cfitsio" => :recommended
   depends_on "gv" => :recommended
