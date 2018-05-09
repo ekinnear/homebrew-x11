@@ -23,10 +23,6 @@ class Sptk < Formula
     cause "Segmentation fault during linking."
   end
 
-  fails_with :llvm do
-    cause "Segmentation fault during linking."
-  end
-
   resource "examples-data" do
     url "https://downloads.sourceforge.net/project/sp-tk/SPTK/SPTK-3.8/SPTKexamples-data-3.8.tar.gz"
     sha256 "3f37f279540e63ca55f0630d4aff8ba123203b0062b69fe379a8f1a951fddca9"
