@@ -5,7 +5,6 @@ class Sptk < Formula
   sha256 "028d6b3230bee73530f3d67d64eafa32cf23eaa987545975d260d0aaf6953f2b"
 
   bottle do
-    revision 1
     sha256 "4bcd3ee3646a117adf8d16bb4b2796c1619cce496cd7651c27089c17b2e89fe8" => :el_capitan
     sha256 "1970957eece7f87d93ffe027492bafff6d15d274e6d87b133628d39e4d4ea8cf" => :yosemite
     sha256 "9e6963a1c30a6a81918da2951bc02589325f4f6b80de05eebb598cdd9e03049b" => :mavericks
